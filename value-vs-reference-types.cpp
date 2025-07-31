@@ -23,6 +23,12 @@ void func3(const std::string &str) {
   // str += "!"; // Compile error
 }
 
+void func4(int &num) {
+  // Even primitives/fundamental types can be modified when passed by reference
+  num = 2;
+  std::cout << num << "\t<- Modified value in callee\n";
+}
+
 void passByValue() {
   std::cout << "### PASS BY VALUE ###\n";
   std::string str = "test"; // Could be made `const` since func1 won't modify this value
@@ -44,9 +50,18 @@ void passByReferenceConst() {
   func3(str);
 }
 
+void passByReferenceInt() {
+  std::cout << "### PASS BY REFERENCE FOR PRIMITIVES ###\n";
+  int num = 1;
+  std::cout << num << "\t<- Original value in caller\n";
+  func4(num);
+  std::cout << num << "\t<- Modified value in caller\n";
+}
+
 int main() {
   passByValue();
   passByReference();
   passByReferenceConst();
+  passByReferenceInt();
   return 0;
 }
