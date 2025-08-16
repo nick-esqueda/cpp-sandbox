@@ -3,4 +3,5 @@ project(cpp_sandbox)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(cpp_sandbox main.cpp)
+# add_executable(cpp_sandbox main.cpp)
+add_executable(headers-and-imports headers-and-imports.cpp utils.cpp)
