@@ -20,7 +20,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="cpp_sandbox" targetName="headers-and-imports" />
+      <config projectName="cpp_sandbox" targetName="classes" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -30,8 +30,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bda840a6-b3ff-4a49-a78a-18531945683a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/exception-handling.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thing.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thing.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +72,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "C/C++ File.exception-handling.cpp.executor": "Run",
+    "CMake Application.classes.executor": "Run",
     "CMake Application.headers-and-imports.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
@@ -91,13 +95,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="C/C++ File.exception-handling.cpp">
+  <component name="RunManager" selected="CMake Application.classes">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="headers-and-imports" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_sandbox" TARGET_NAME="headers-and-imports" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_sandbox" RUN_TARGET_NAME="headers-and-imports">
+    <configuration name="classes" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_sandbox" TARGET_NAME="classes" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_sandbox" RUN_TARGET_NAME="classes">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -110,7 +114,7 @@
     </configuration>
     <list>
       <item itemvalue="C/C++ File.exception-handling.cpp" />
-      <item itemvalue="CMake Application.headers-and-imports" />
+      <item itemvalue="CMake Application.classes" />
     </list>
     <recent_temporary>
       <list>
@@ -125,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755313410582</updated>
-      <workItem from="1755313411627" duration="2808000" />
+      <workItem from="1755313411627" duration="8824000" />
     </task>
     <servers />
   </component>
