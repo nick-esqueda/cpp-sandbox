@@ -9,6 +9,7 @@
 // "Initializer List" - after the ":" and before "{"
 // runs before the constructor and initializes the instance variables
 // more efficient than assigning them in the constructor
+// also required for `const` members regardless.
 Thing::Thing() : m_num(0), m_is_bool(true) {
   std::cout << "Thing() default constructor invoked" << std::endl;
 }

@@ -9,9 +9,9 @@
     <option name="/Default/Housekeeping/LiveTemplatesHousekeeping/HotspotSessionHintIsShown/@EntryValue" value="true" type="bool" />
     <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeProjectFlavorService">
     <option name="flavorId" value="CMakePlainProjectFlavor" />
   </component>
@@ -20,7 +20,10 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
+      <config projectName="cpp_sandbox" targetName="cpp_sandbox" />
+      <config projectName="cpp_sandbox" targetName="memory-management" />
       <config projectName="cpp_sandbox" targetName="classes" />
+      <config projectName="cpp_sandbox" targetName="headers-and-imports" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -30,11 +33,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bda840a6-b3ff-4a49-a78a-18531945683a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Thing.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thing.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memory-management.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thing.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Thing.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pointers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/pointers.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +64,9 @@
     <option name="minorVersion" value="1.4" />
     <option name="productBranch" value="Classic" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="31Lps9yp2CFimm0K71yr0nNh0Aj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -74,6 +77,7 @@
     "C/C++ File.exception-handling.cpp.executor": "Run",
     "CMake Application.classes.executor": "Run",
     "CMake Application.headers-and-imports.executor": "Run",
+    "CMake Application.memory-management.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -95,13 +99,28 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="CMake Application.classes">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="CMake Application.memory-management">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="classes" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_sandbox" TARGET_NAME="classes" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_sandbox" RUN_TARGET_NAME="classes">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cpp_sandbox" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_sandbox" TARGET_NAME="cpp_sandbox" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_sandbox" RUN_TARGET_NAME="cpp_sandbox">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="headers-and-imports" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_sandbox" TARGET_NAME="headers-and-imports" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_sandbox" RUN_TARGET_NAME="headers-and-imports">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="memory-management" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_sandbox" TARGET_NAME="memory-management" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_sandbox" RUN_TARGET_NAME="memory-management">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -115,6 +134,9 @@
     <list>
       <item itemvalue="C/C++ File.exception-handling.cpp" />
       <item itemvalue="CMake Application.classes" />
+      <item itemvalue="CMake Application.cpp_sandbox" />
+      <item itemvalue="CMake Application.headers-and-imports" />
+      <item itemvalue="CMake Application.memory-management" />
     </list>
     <recent_temporary>
       <list>
@@ -129,7 +151,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755313410582</updated>
-      <workItem from="1755313411627" duration="8824000" />
+      <workItem from="1755313411627" duration="11496000" />
+      <workItem from="1755816183896" duration="4284000" />
     </task>
     <servers />
   </component>

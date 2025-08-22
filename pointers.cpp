@@ -38,7 +38,7 @@ void pointer_value_vs_reference() {
   std::cout << x_ptr << "\t<- x pointer\n";
   std::cout << x_ptr2 << "\t<- x pointer 2\n";
 
-  // dereference (copy) the x value into another var
+  // dereference and copy the x value into another var
   int z = *x_ptr;
   std::cout << z << "\t\t\t<- z (x)\n";
 
