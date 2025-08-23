@@ -10,3 +10,6 @@ add_executable(classes Thing.cpp Thing.h
         Point.cpp
         Point.h)
 add_executable(memory-management memory-management.cpp)
+add_executable(raii raii.cpp
+        RaiiArray.cpp
+        RaiiArray.h)
