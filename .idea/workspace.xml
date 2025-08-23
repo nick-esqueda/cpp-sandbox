@@ -7,6 +7,7 @@
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/LiveTemplatesHousekeeping/HotspotSessionHintIsShown/@EntryValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="CppFormatterOtherPage" type="string" />
     <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
   </component>
   <component name="CMakePresetLoader">{
@@ -33,19 +34,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bda840a6-b3ff-4a49-a78a-18531945683a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/memory-management.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Point.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Point.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Thing.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Thing.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pointers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/pointers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thing.h" beforeDir="false" afterPath="$PROJECT_DIR$/Thing.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/classes.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ClangdSettings">
-    <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
@@ -86,6 +87,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "cf.advertisement.text.overridden": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
@@ -95,11 +97,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.sync",
+    "settings.editor.selected.configurable": "preferences.sourceCode.C/C++",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="CMake Application.memory-management">
+  <component name="RunManager" selected="CMake Application.classes">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -152,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1755313410582</updated>
       <workItem from="1755313411627" duration="11496000" />
-      <workItem from="1755816183896" duration="4284000" />
+      <workItem from="1755816183896" duration="8882000" />
     </task>
     <servers />
   </component>

@@ -6,14 +6,15 @@
 #define CLASSES_H
 #include <string>
 
-// class member variables and method signatures should be declared in a header file.
-// define them in the source files.
+// class member variables and method signatures should be declared in a header
+// file. define them in the source files.
 class Thing {
   // members variables should be prefixed with "m_" by convention
   int m_num;
   bool m_is_bool;
 
-  // fields/methods are private by default. use `public:` to specify public methods/fields
+  // fields/methods are private by default. use `public:` to specify public
+  // methods/fields
 public:
   Thing();
 
@@ -26,4 +27,4 @@ public:
   [[nodiscard]] std::string to_string() const;
 };
 
-#endif //CLASSES_H
+#endif // CLASSES_H
