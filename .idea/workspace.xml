@@ -22,8 +22,10 @@
   <component name="CMakeRunConfigurationManager">
     <generated>
       <config projectName="cpp_sandbox" targetName="raii" />
+      <config projectName="cpp_sandbox" targetName="polymorphism" />
       <config projectName="cpp_sandbox" targetName="cpp_sandbox" />
       <config projectName="cpp_sandbox" targetName="memory-management" />
+      <config projectName="cpp_sandbox" targetName="smart-pointers" />
       <config projectName="cpp_sandbox" targetName="classes" />
       <config projectName="cpp_sandbox" targetName="headers-and-imports" />
     </generated>
@@ -35,9 +37,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bda840a6-b3ff-4a49-a78a-18531945683a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/RaiiArray.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RaiiArray.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/raii.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polymorphism.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-pointers.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
@@ -77,7 +78,9 @@
     "CMake Application.classes.executor": "Run",
     "CMake Application.headers-and-imports.executor": "Run",
     "CMake Application.memory-management.executor": "Run",
+    "CMake Application.polymorphism.executor": "Run",
     "CMake Application.raii.executor": "Run",
+    "CMake Application.smart-pointers.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -100,7 +103,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="CMake Application.raii">
+  <component name="RunManager" selected="CMake Application.polymorphism">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -126,7 +129,17 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="polymorphism" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_sandbox" TARGET_NAME="polymorphism" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_sandbox" RUN_TARGET_NAME="polymorphism">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="raii" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_sandbox" TARGET_NAME="raii" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_sandbox" RUN_TARGET_NAME="raii">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="smart-pointers" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_sandbox" TARGET_NAME="smart-pointers" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_sandbox" RUN_TARGET_NAME="smart-pointers">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -143,7 +156,9 @@
       <item itemvalue="CMake Application.cpp_sandbox" />
       <item itemvalue="CMake Application.headers-and-imports" />
       <item itemvalue="CMake Application.memory-management" />
+      <item itemvalue="CMake Application.polymorphism" />
       <item itemvalue="CMake Application.raii" />
+      <item itemvalue="CMake Application.smart-pointers" />
     </list>
     <recent_temporary>
       <list>
@@ -159,7 +174,7 @@
       <option name="presentableId" value="Default" />
       <updated>1755313410582</updated>
       <workItem from="1755313411627" duration="11496000" />
-      <workItem from="1755816183896" duration="11033000" />
+      <workItem from="1755816183896" duration="21772000" />
     </task>
     <servers />
   </component>

@@ -12,3 +12,4 @@ add_executable(classes Thing.cpp Thing.h
 add_executable(memory-management memory-management.cpp)
 add_executable(raii raii.cpp)
 add_executable(smart-pointers smart-pointers.cpp)
+add_executable(polymorphism polymorphism.cpp)
