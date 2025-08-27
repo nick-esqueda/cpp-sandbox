@@ -21,6 +21,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
+      <config projectName="cpp_sandbox" targetName="templates" />
       <config projectName="cpp_sandbox" targetName="raii" />
       <config projectName="cpp_sandbox" targetName="polymorphism" />
       <config projectName="cpp_sandbox" targetName="cpp_sandbox" />
@@ -37,8 +38,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bda840a6-b3ff-4a49-a78a-18531945683a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/polymorphism.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart-pointers.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
@@ -81,6 +81,7 @@
     "CMake Application.polymorphism.executor": "Run",
     "CMake Application.raii.executor": "Run",
     "CMake Application.smart-pointers.executor": "Run",
+    "CMake Application.templates.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -103,7 +104,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="CMake Application.polymorphism">
+  <component name="RunManager" selected="CMake Application.templates">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -144,6 +145,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="templates" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_sandbox" TARGET_NAME="templates" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_sandbox" RUN_TARGET_NAME="templates">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="exception-handling.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_sandbox" TARGET_NAME="exception-handling.cpp" CONFIG_NAME="exception-handling.cpp">
       <option name="sourceFile" value="exception-handling.cpp" />
       <method v="2">
@@ -159,6 +165,7 @@
       <item itemvalue="CMake Application.polymorphism" />
       <item itemvalue="CMake Application.raii" />
       <item itemvalue="CMake Application.smart-pointers" />
+      <item itemvalue="CMake Application.templates" />
     </list>
     <recent_temporary>
       <list>
@@ -174,7 +181,7 @@
       <option name="presentableId" value="Default" />
       <updated>1755313410582</updated>
       <workItem from="1755313411627" duration="11496000" />
-      <workItem from="1755816183896" duration="21772000" />
+      <workItem from="1755816183896" duration="22373000" />
     </task>
     <servers />
   </component>
